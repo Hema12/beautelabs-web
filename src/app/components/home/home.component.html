@@ -1,0 +1,224 @@
+<!-- <div class="container"> -->
+    <div class="first-section">
+        <div class="top-section">
+            <div class="col-md-12 col-xl-12 col-sm-12 col-lg-12">
+                <div class="right-icon">
+                    <!-- <a href="#" target="blank" class="topicon"><i class="fab fa-facebook fb"></i></a>
+                    <a href="#" target="blank" class="topicon"><i class="fab fa-instagram insta"></i></a>
+                    <a href="#" target="blank" class="topicon"><i class="fab fa-google gp"></i></a> -->
+                    <!-- <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a> -->
+                    <a href="#"><img src="../../../assets/images/icons/fb.png" /></a>
+                    <a href="#"><img src="../../../assets/images/icons/instagram.png" /></a>
+                    <a href="#"><img src="../../../assets/images/icons/google.png" /></a>
+                </div>
+            </div>
+            <div class="row col-md-12 col-xl-12 col-sm-12 col-lg-12">
+                <div class="col-md-4 col-xl-4 col-sm-4 col-lg-4">
+                    <div class="logo">
+                        <img src="../../../assets/images/logo.png" />
+                        <h1>BEAUTÉ</h1>
+                        <h4>Signature Salon</h4>
+                    </div>
+                    <div class="container" onclick="myFunction(this)" class="hamburger" (click)="toggleHamburger()" [ngClass]="{'active' : hamburgerClose}" >
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                      </div>
+                    <!-- <div class="navbar-brand">
+                        <span id="ham" class="hamburger" [ngClass]="{'active' : hamburgerClose}" (click)="toggleHamburger()" ></span>
+                    </div> -->
+                </div>
+                <div class="col-md-8 col-xl-8 col-sm-8 col-lg-8">                               
+                    <div class="menu" [ngClass]="{'show-menu' : hamburgerClose}">                       
+                        <div class="navbar-menu" [ngClass]="{'show-menu' : hamburgerClose}">
+                            <ul>
+                                <li><a class="fancy-link" routerLink="/story" (click)="toggleHamburger()">Our Story</a></li>
+                                <li><a class="fancy-link" routerLink="/services" (click)="toggleHamburger()">Salon Services</a></li>
+                                <li><a class="fancy-link" routerLink="/blog" (click)="toggleHamburger()">Blog</a></li>
+                                <li><a class="fancy-link" routerLink="/newbooking" (click)="toggleHamburger()">Book Appointment</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row col-md-12 col-sm-12 col-lg-12 col-xl-12 topcentercontent">
+                <div class="col-md-4 col-xl-4 col-sm-4 col-lg-4">
+                    <div class="topleftcontent">
+                        <h3>inspired</h3>
+                        <h3>by</h3>
+                        <h3>inner beauty</h3>
+                    </div>
+                </div>
+                <div class="col-md-8 col-xl-8 col-sm-8 col-lg-8 topslider">
+                    <!-- <carousel [interval]="myInterval" [(activeSlide)]="activeSlideIndex" >
+                        <slide>
+                        <img src="../../../assets/images/slider/4.jpg" alt="image slide" style="display: block; height: 500px;">                                
+                        </slide>
+                    </carousel> -->
+                    <div class="carousel">
+                        <ul class="slides">
+                            <input type="radio" name="radio-buttons" id="img-1" checked />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="../../../assets/images/slider/5.png" style="display: block;" class="img-responsive" />
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-3" class="prev-slide">
+                                        <span>&lsaquo;</span>
+                                    </label>
+                                    <label for="img-2" class="next-slide">
+                                      <span>&rsaquo;</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <input type="radio" name="radio-buttons" id="img-2" />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="../../../assets/images/slider/Salon1.png" style="display: block;" class="img-responsive" />
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-1" class="prev-slide">
+                                        <span>&lsaquo;</span>
+                                    </label>
+                                    <label for="img-3" class="next-slide">
+                                        <span>&rsaquo;</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <input type="radio" name="radio-buttons" id="img-3">
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="../../../assets/images/slider/4.jpg" style="display: block;"  class="img-responsive"/>
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-2" class="prev-slide">
+                                        <span>&lsaquo;</span>
+                                    </label>
+                                    <label for="img-1" class="next-slide">
+                                        <span>&rsaquo;</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <div class="carousel-dots">
+                                <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                                <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                                <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                            </div>
+                        </ul>
+                    </div>                   
+                </div>
+            </div>
+            
+        </div>
+        <div class="orangebg">        
+        </div>
+    </div>
+    <div class="second-section">
+        <div id="thumbnail-slider">
+            <div class="inner">
+                <ul>
+                    <li>
+                        <a class="thumb img-responsive" href="../../../assets/images/slider/slide1.png"></a>
+                    </li>
+                    <li>
+                        <a class="thumb img-responsive" href="../../../assets/images/slider/slide1.png"></a>
+                    </li>
+                    <li>
+                        <a class="thumb img-responsive" href="../../../assets/images/slider/slide1.png"></a>
+                    </li>
+                  
+                </ul>
+            </div>
+        </div>
+        <h2>Show your true colors with attitude</h2>
+    </div>
+    <div class="third-section">
+        <div class="row col-md-12 col-xl-12 col-lg-12 col-sm-12 pall-zero mall-zero">
+            <div class="col-md-5 col-lg-5 col-xl-5 col-sm-5 pall-zero mall-zero">
+                <div class="third-content">
+                    <h1>BEAUTÉ STORE</h1>
+                    <button class="large-btn">SHOP</button>
+                    <h3>Great deals on Top Brands
+                        Buy shampoos,conditioners,
+                        hair care & skin care products
+                        at best prices, with
+                        FREE express delivery</h3>
+                </div>
+            </div>
+            <div class="col-md-7 col-lg-7 col-xl-7 col-sm-7 pall-zero mall-zero">
+                <img src="../../../assets/images/kit2.png" class="img-responsive" />
+            </div>
+        </div>
+    </div>
+    <div class="fourth-section">        
+        <div class="row col-md-12 col-xl-12 col-lg-12 col-sm-12 pall-zero mall-zero">
+            <div class="col-md-5 col-lg-5 col-xl-5 col-sm-5 pall-zero mall-zero">
+                <div class="fourth-content">
+                    <h1>PARTNER <br /> WITH US</h1>
+                    <h3>India's first technology based<br />
+                        startup for salon industry..</h3>
+                    <button class="btn1">Let's Talk</button>
+                </div>
+            </div>
+            <div class="col-md-7 col-lg-7 col-xl-7 col-sm-7 pall-zero mall-zero">
+                <img src="../../../assets/images/salon3.png" class="img-responsive" />
+            </div>
+        </div>
+    </div>
+    <div class="fifth-section">    
+        <div class="row col-md-12 col-xl-12 col-lg-12 col-sm-12 pall-zero mall-zero">
+            <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6 pall-zero mall-zero">
+                <img src="../../../assets/images/salon6.png" class="img-responsive" />
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6 centercontent">
+                <div class="fifth-content">
+                    <h1>WE'RE HIRING</h1>
+                    <h3>If you can AMAZE <br />
+                        our customers<br />
+                        with a WOW styling,<br />
+                        we got you covered.
+                    </h3>                    
+                    <button class="btn mt-5">Get in touch with us</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="sixth-section">
+        <div class="six-content">
+            <h2>Partner's Speak</h2>
+            <h4>"Great people to work with. <br />
+                Proud to be part of their<br />
+                sucess story"</h4>
+            <p>Ravi, Our first franchise partner</p>
+        </div>
+    </div>
+    <div class="footer-section">
+        <div class="row col-md-12 col-xl-12 col-lg-12 col-sm-12">
+            <div class="col-md-4 col-xl-4 col-lg-4 col-sm-4">
+                <ul class="footer-menu">
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Beauteq Salon Software</a></li>
+                    <li><a href="#">Beaute.store</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-xl-4 col-lg-4 col-sm-4">
+                <ul class="footer-menu">
+                    <li><a href="#">Franchise Enquiry</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-xl-4 col-lg-4 col-sm-4">
+                <ul class="right-icon">
+                    <a href="#"><img src="../../../assets/images/icons/fb.png" /></a>
+                    <a href="#"><img src="../../../assets/images/icons/instagram.png" /></a>
+                    <a href="#"><img src="../../../assets/images/icons/google.png" /></a>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+<!-- </div> -->
