@@ -380,7 +380,7 @@ body {
     margin: 0px !important;
 }
 .second-section {
-    background: #2c3239;
+    background: #000;
     margin-top:4%;
     margin-bottom: 2%;
     // height: 30vh;
@@ -438,7 +438,8 @@ body {
     // height: 57vh;
     // margin:3% 10%;
     height: 100vh;
-    width: 65%;
+    // width: 65%;
+    background: #0f0b08;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -452,22 +453,25 @@ body {
     // bottom: 0;
     // left: 37px;
     // width: 100%;
-    left: 80px;
-    transform: skew(-9deg);
-    height: 100vh;
+    // left: 80px;
+    // transform: skew(-9deg);
+     height: 100vh;
+     width:100%;
 }
 .fourth-content h1 {
-    color:#2c3239;
+    color:#fff;
     font-size:8vw;    
 }
 .fourth-content h3 {
-    color:#2f3239;
+    color:#fff;
     font-size: 2vw;
     line-height: 60px;
     font-weight: normal;
 }
 .fifth-section {
-    background: #2c3239;
+    // background: #090d16;
+    // background: linear-gradient(#0a0e19, #02050a);
+    background: linear-gradient(180deg, #050912, #010207);
     // margin-top:10px;
 }
 .fifth-section img {
@@ -557,11 +561,11 @@ body {
     color:#fff;
 }
 .btn1 {
-    border:1px solid #000;
-    background: #c7d0d8;
+    border:1px solid fff;
+    background: #2c3239;
     padding:5px 10px;
     font-size: 22px;
-    color:#000;
+    color:#fff;
     font-family: 'PT Serif', serif;;
 }
 .large-btn {
@@ -641,7 +645,9 @@ body {
     width: 93%;
     margin-top: 3%;
 }
-
+.slides img {
+    height: 550px;
+}
 ul.slides {
     display: block;
     position: relative;
@@ -767,7 +773,15 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 
 input:checked + .slide-container .nav label { display: block; }
 
+@media only screen and (min-width: 1080px) and (max-width:1300px) {
+    .slides img {
+        height: 350px !important;
+    }
+}
 @media only screen and (min-width: 320px) and (max-width:600px) {
+    .slides img {
+        height: unset !important;
+    }
     ul.slides {
         display: block;
         position: relative;
@@ -822,6 +836,7 @@ input:checked + .slide-container .nav label { display: block; }
     .orangebg {
         top:65%;
         height: 20vh;
+        width: 102%;
     }    
     .topcentercontent {
         padding: 0px;
