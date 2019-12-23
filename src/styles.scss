@@ -431,6 +431,7 @@ body {
 }
 .fourth-section {
     background: #c7d0d8;
+    overflow: hidden;
 }
 .fourth-content {    
     // width: 85%;
@@ -832,5 +833,37 @@ input:checked + .slide-container .nav label { display: block; }
     }
     .second-section h2 {
         font-size: 7vw;
+    }
+    .fourth-section img {
+        display: none;
+    }
+    .third-content h1 {
+        font-size: 2.5rem;
+    }
+    .fourth-content h3 {
+        font-size: 5vw;
+        line-height: 40px;
+    }
+    .third-section img {
+        height: auto;
+    }
+    .fifth-content {
+        height: 60vh;
+    }
+    .fourth-content {
+        height: 60vh;
+    }
+    .fifth-section img {
+        height: auto;
+    }
+    .fifth-content h1 {
+        font-size: 7vw;
+    }
+    .fifth-content h3   {
+        font-size: 5vw;
+        line-height:40px;
+    }
+    .six-content {
+        width:90vw;
     }
 }
