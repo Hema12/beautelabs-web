@@ -4,7 +4,8 @@ body {
     overflow-x: hidden;
 }
 .logo {
-    padding:0 19%;
+    // padding:0 19%;
+    padding-left:9vw;
 }
 .logo img {
     margin-left:17%;
@@ -23,7 +24,13 @@ body {
     letter-spacing: 4px;
     font-size: 1.5vw;
 }
+.bottom-section {
+    width:100%;
+    background: #444;
+   box-shadow: 5px 10px 8px 10px #2f2f2f;
+}
 .first-section {
+    height: 100vh;
     // box-shadow: 5px 10px 8px 10px #888888;
 }
 .top-section {
@@ -381,8 +388,8 @@ body {
 }
 .second-section {
     background: #000;
-    margin-top:4%;
-    margin-bottom: 2%;
+    margin-top:1%;
+    // margin-bottom: 2%;
     // height: 30vh;
 }
 .second-section h2 {
@@ -395,6 +402,7 @@ body {
 }
 .third-section {
     background: #ff914d;
+    margin-top: 1.4%;
 }
 .third-section img {
     // height: 880px;
@@ -481,12 +489,11 @@ body {
     font-size: 4vw;
     font-weight: normal;
     font-family: 'Abel', sans-serif;
-
 }
 .last-word {
     padding-top: 1vh;
 }
-.new-section  h2 {
+.new-section h2 {
     color:#fff;
     text-align: center;
     font-weight: normal;
@@ -495,10 +502,15 @@ body {
     font-size: 2rem;
     letter-spacing: 2px;
 }
+.new-section h3 {
+    font-size: 4vw;
+    line-height: 30px;
+    font-family: "Lemonada", cursive;
+}
 .new-section1 {
     background-image: url('assets/images/bg-image.png');
     background-size: cover;
-    height: 98vh;
+    height: 99vh;
 }
 .new-content1 {
     padding: 7vw 5vw;
@@ -699,7 +711,8 @@ body {
     margin-top: 5%;
 }
 .slides img {
-    height: 550px;
+    // height: 550px;
+    height: 60vh;
 }
 ul.slides {
     display: block;
