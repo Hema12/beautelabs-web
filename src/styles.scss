@@ -48,10 +48,13 @@ body {
 /* top menu bar */
 .menu {
     // min-height: 7vh;
-    height: auto;
     // position: fixed;
+    // margin-top:5%;
+    height: auto;
     z-index: 1000;
-    margin-top:5%;
+    /* margin-top: 5%; */
+    position: absolute;
+    top: 10vh;
 }
 .navbar-brand {
     width: 60vw;
@@ -219,11 +222,18 @@ body {
     margin-right: 10px;
 }
 .right-icon {
-    float: right;
-    margin-right: 10%;
+    // float: right;
+    position: absolute;
+    right: 5vw;
+    top: 2vh;
+    // margin-right: 10%;
 }
 .right-icon a{
     margin-right: 10px;
+}
+.right-icon img {
+    height: 4vh;
+    width: 2vw;
 }
 .topleftcontent {
     // margin:0 auto;
