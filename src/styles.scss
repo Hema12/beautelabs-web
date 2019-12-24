@@ -78,7 +78,7 @@ body {
     padding: 0;
     color:#fff !important;
     font-family:  "Roboto", serif;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 .navbar-menu ul li a:hover {
     color: #f9f9f9;
@@ -470,7 +470,7 @@ body {
 }
 .new-section {
     background: #000;
-    padding: 8vh 3vh 8vh 6vh;
+    padding: 8vh 3vh 5vh 6vh;
 }
 .image-content img {
     width:17vw;
@@ -484,14 +484,16 @@ body {
 
 }
 .last-word {
-    padding-top: 3vh;
+    padding-top: 1vh;
 }
 .new-section  h2 {
     color:#fff;
     text-align: center;
     font-weight: normal;
-    padding-top: 3vh;
+    padding-top: 5vh;
     font-family: "Abel", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
 }
 .new-section1 {
     background-image: url('assets/images/bg-image.png');
