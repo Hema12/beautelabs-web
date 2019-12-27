@@ -29,10 +29,10 @@
                     <div class="menu" [ngClass]="{'show-menu' : hamburgerClose}">                       
                         <div class="navbar-menu" [ngClass]="{'show-menu' : hamburgerClose}">
                             <ul>
-                                <li><a class="fancy-link" routerLink="#">Our Story</a></li>
-                                <li><a class="fancy-link" routerLink="#">Salon Services</a></li>
-                                <li><a class="fancy-link" routerLink="#" >Blog</a></li>
-                                <li><a class="fancy-link" routerLink="#">Book Appointment</a></li>
+                                <li><a class="fancy-link" routerLink="#" (click)="showstory($event)">Our Story</a></li>
+                                <li><a class="fancy-link" routerLink="#" (click)="showservice($event)">Salon Services</a></li>
+                                <li><a class="fancy-link" routerLink="#" (click)="showblog($event)">Blog</a></li>
+                                <li><a class="fancy-link" routerLink="#" (click)="showappt($event)">Book Appointment</a></li>
                             </ul>
                         </div>
                     </div>
@@ -128,7 +128,7 @@
         </div>
     </div>
     <!-- <div class="bottom-section"></div> -->
-    <div class="second-section">
+    <div class="second-section" id="storyview">
         <div id="thumbnail-slider">
             <div class="inner">
                 <ul>
@@ -148,7 +148,7 @@
         <h2>Show your true colors with attitude</h2>
     </div>
     <!-- <div class="bottom-section"></div> -->
-    <div class="third-section">
+    <div class="third-section" id="serviceview">
         <div class="row col-md-12 col-xl-12 col-lg-12 col-sm-12 pall-zero mall-zero">
             <div class="col-md-5 col-lg-5 col-xl-5 col-sm-5 pall-zero mall-zero">
                 <div class="third-content">
@@ -167,7 +167,7 @@
         </div>
     </div>
     <!-- <div class="bottom-section"></div> -->
-    <div class="new-section">
+    <div class="new-section" id="blogview">
         <div class="row col-md-12 col-xl-12 col-lg-12 col-sm-12 pall-zero mall-zero">
             <div class="col-md-9 col-lg-9 col-xl-9 col-sm-9 pall-zero mall-zero">
                 <div class="image-content">
@@ -191,7 +191,7 @@
         </div>        
     </div>
     <!-- <div class="bottom-section"></div> -->
-    <div class="new-section1">
+    <div class="new-section1" id="apptview">
         <div class="row col-md-12 col-xl-12 col-lg-12 col-sm-12 pall-zero mall-zero">
             <div class="col-md-4 col-lg-4 col-xl-4 col-sm-4 pall-zero mall-zero">
                 <div class="new-content1">

@@ -15,4 +15,37 @@ export class HomeComponent implements OnInit {
  toggleHamburger() {
   this.hamburgerClose = !this.hamburgerClose;
 }
+showstory() {
+  // document.getElementById("storyview").scrollIntoView({ behavior: 'smooth', block: 'start' });
+  const id = 'storyview';
+  const yOffset = -20; 
+  const element = document.getElementById(id);
+  const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  window.scrollTo({top: y, behavior: 'smooth'});
+  // document.getElementById("storyview").style.margin = "2% 0%";
+}
+showservice() {
+  // document.getElementById("serviceview").scrollIntoView({ behavior: 'smooth', block: 'start' });
+  const id = 'serviceview';
+  const yOffset = -20; 
+  const element = document.getElementById(id);
+  const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  window.scrollTo({top: y, behavior: 'smooth'});
+}
+showblog() {
+  // document.getElementById("blogview").scrollIntoView({ behavior: 'smooth', block: 'start' });
+  const id = 'blogview';
+  const yOffset = -20; 
+  const element = document.getElementById(id);
+  const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  window.scrollTo({top: y, behavior: 'smooth'});
+}
+showappt() {
+  // document.getElementById("apptview").scrollIntoView({ behavior: 'smooth', block: 'start' });
+  const id = 'apptview';
+  const yOffset = -20; 
+  const element = document.getElementById(id);
+  const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  window.scrollTo({top: y, behavior: 'smooth'});
+}
 }
