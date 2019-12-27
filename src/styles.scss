@@ -361,7 +361,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     text-decoration: none;
 }
 .bar1 {
-    width: 25px;
+    width: 20px;
     height: 2px;
     background-color: #fff;
     margin: 6px 0;
@@ -371,7 +371,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     top:46%;
   }
   .bar2 {
-    width: 25px;
+    width: 20px;
     height: 2px;
     background-color: #fff;
     margin: 6px 0;
@@ -381,7 +381,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     top:53%;
   }
 .bar3 {
-    width: 25px;
+    width: 20px;
     height: 2px;
     background-color: #fff;
     margin: 6px 0;
@@ -396,8 +396,8 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
   }
 .change .bar2 {opacity: 0;}
 .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
+    -webkit-transform: rotate(45deg) translate(-9px, -9px);
+    transform: rotate(45deg) translate(-9px, -9px);
   }
 //Menu responsive
 @media screen and (max-width: 700px) {
@@ -442,11 +442,11 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     }
     
     .menu.show-menu {
-        height: 40vh;
+        height: 28vh;
+        background: #ffffff;
     }
     .navbar-menu.show-menu {
-        display: block;
-        background: #ffffff;
+        display: block;       
     }    
     .navbar-menu.show-menu ul li a{
         color:#1c1c1c !important;
@@ -614,7 +614,11 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 .new-section1 {
     background-image: url('assets/images/bg-image.png');
     background-size: cover;
-    height: 99vh;
+    // height: 99vh;
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .new-content1 {
     padding: 7vw 5vw;
@@ -649,6 +653,9 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     }
     .new-content1 h5 {
         font-size: 4vw;        
+    }
+    .new-section1 {
+        height: unset;
     }
 }
 //Fifth section
