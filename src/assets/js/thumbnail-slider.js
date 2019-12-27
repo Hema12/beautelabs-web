@@ -20,7 +20,6 @@ var thumbnailSliderOptions =
     keyboardNav: true,
     mousewheelNav: false,
     before: null,
-    license: "mylicense",
     responsive: true
 };
 
