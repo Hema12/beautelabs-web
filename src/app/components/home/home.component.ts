@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   hamburgerClose: Boolean = false;
-  constructor() { }
+  constructor(private myElement: ElementRef) { }
 
   ngOnInit() {
   }
@@ -18,16 +18,17 @@ export class HomeComponent implements OnInit {
 showstory() {
   // document.getElementById("storyview").scrollIntoView({ behavior: 'smooth', block: 'start' });
   const id = 'storyview';
-  const yOffset = -20; 
+  const yOffset = -10; 
   const element = document.getElementById(id);
   const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
   window.scrollTo({top: y, behavior: 'smooth'});
   // document.getElementById("storyview").style.margin = "2% 0%";
+  
 }
 showservice() {
   // document.getElementById("serviceview").scrollIntoView({ behavior: 'smooth', block: 'start' });
   const id = 'serviceview';
-  const yOffset = -20; 
+  const yOffset = -10; 
   const element = document.getElementById(id);
   const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
   window.scrollTo({top: y, behavior: 'smooth'});
@@ -35,7 +36,7 @@ showservice() {
 showblog() {
   // document.getElementById("blogview").scrollIntoView({ behavior: 'smooth', block: 'start' });
   const id = 'blogview';
-  const yOffset = -20; 
+  const yOffset = -10; 
   const element = document.getElementById(id);
   const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
   window.scrollTo({top: y, behavior: 'smooth'});
@@ -43,7 +44,7 @@ showblog() {
 showappt() {
   // document.getElementById("apptview").scrollIntoView({ behavior: 'smooth', block: 'start' });
   const id = 'apptview';
-  const yOffset = -20; 
+  const yOffset = -10; 
   const element = document.getElementById(id);
   const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
   window.scrollTo({top: y, behavior: 'smooth'});
