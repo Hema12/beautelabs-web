@@ -48,6 +48,10 @@ body {
     }
 }
 //Logo
+.logobar {
+    position: absolute;
+    top:4vh;
+}
 .logo {
     // padding:0 19%;
     padding-left:9vw;
@@ -76,6 +80,9 @@ body {
 @media only screen and (min-width: 320px) and (max-width:600px) {
     .logo {
         padding:0%;
+    }
+    .logobar {
+        top:8vh;
     }
     .logo img {
         width:40px;
@@ -122,6 +129,9 @@ body {
 }
 //First section left content mobile device
 @media only screen and (min-width: 320px) and (max-width:600px) {
+    .first-section {
+        height: 93vh;
+    }
     .topleftcontent {
         position: absolute;
         left: 30vw;
@@ -309,9 +319,9 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 }
 @media only screen and (min-width: 320px) and (max-width:600px) {
 .orangebg {
-    top: 78%;
+    top: 78vh;
     height: 15vh;
-    width: 102%;
+    width: 100%;
 }    
 }
 //Menu
@@ -320,7 +330,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     height: auto;
     z-index: 1000;
     position: absolute;
-    top: 0vh;
+    top: 9vh;
 }
 .navbar-brand {
     width: 60vw;
@@ -408,6 +418,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
         padding-bottom: 5px;
         display: block;
         transition: all 0.3s ease-in;
+        top:2vh;
     }
     .navbar-brand {
         width: 100%;
@@ -444,7 +455,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     }
     
     .menu.show-menu {
-        height: 28vh;
+        height: 33vh;
         background: #ffffff;
     }
     .navbar-menu.show-menu {
@@ -486,6 +497,11 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     .second-section h2 {
         font-size: 7vw;
     }
+    .second-section {
+        height: 45vh;
+        top:96vh;
+    }
+    
 }
 //Third Section
 .third-section {
@@ -531,6 +547,9 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     }
     .third-content h3 {
         font-size: 9vw;
+    }
+    .third-section {
+        top:143vh;
     }
 }
 //Fourth Section
@@ -582,7 +601,11 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     .fourth-content {
         height: 60vh;
     }
+    .fourth-section {
+        top:446vh;
+    }
 }
+
 //New Section
 .new-section {
     background: #000;
@@ -631,6 +654,9 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     }
     .image-content img {
         width: 20vw;
+    }
+    .new-section {
+     padding:8vh 3vh 5vh 5vh;   
     }
 }
 //New section1
@@ -736,6 +762,9 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
         font-size: 5vw;
         line-height:40px;
     }
+    .fifth-section {
+        top:564vh;
+    }
 }
 //Sixth section
 .sixth-section {
@@ -771,6 +800,9 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     .six-content {
         width:90vw;
     }
+    .sixth-section {
+        top:681vh;
+    }
 }
 //Footer
 .footer-section {
@@ -799,7 +831,9 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 }
 //Footer Section mobile device
 @media only screen and (min-width: 300px) and (max-width:700px) {
-
+.footer-section {
+    top:773vh;
+}
 }
 //button
 .btn {
@@ -826,15 +860,4 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     font-family: "Roboto", serif;
     border-radius: 5px;
     margin-top:10%;
-}
-
-
-
-
-
-@media only screen and (min-width: 320px) and (max-width:600px) {
-     
-    .second-section h2 {
-        font-size: 7vw;
-    }      
 }
