@@ -3,14 +3,14 @@ var thumbnailSliderOptions =
 {
     sliderId: "thumbnail-slider",
     orientation: "horizontal",
-    thumbWidth: "33%",
+    thumbWidth: "50%",
     // thumbHeight: "630px",
-    thumbHeight: "100%",
+    thumbHeight: "auto",
     showMode: 3,
     autoAdvance: true,
     selectable: true,
     slideInterval: 1500,
-    transitionSpeed: 1500,
+    transitionSpeed: 300,
     shuffle: false,
     startSlideIndex: 0, //0-based
     pauseOnHover: true,
@@ -19,7 +19,8 @@ var thumbnailSliderOptions =
     keyboardNav: true,
     mousewheelNav: false,
     before: null,
-    license: "mylicense"
+    license: "mylicense",
+    responsive: true
 };
 
 var mcThumbnailSlider = new ThumbnailSlider(thumbnailSliderOptions);
