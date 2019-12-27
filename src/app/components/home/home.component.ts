@@ -22,6 +22,9 @@ showstory() {
   const element = document.getElementById(id);
   const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
   window.scrollTo({top: y, behavior: 'smooth'});
+  document.getElementById('storyview').scrollTop = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  const element1 = document.querySelector('#storyview');
+  element1.scrollIntoView();
   // document.getElementById("storyview").style.margin = "2% 0%";
   
 }
@@ -39,7 +42,7 @@ showblog() {
   const yOffset = -10; 
   const element = document.getElementById(id);
   const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
-  window.scrollTo({top: y, behavior: 'smooth'});
+  window.scrollTo({top: y, behavior: 'smooth'});  
 }
 showappt() {
   // document.getElementById("apptview").scrollIntoView({ behavior: 'smooth', block: 'start' });

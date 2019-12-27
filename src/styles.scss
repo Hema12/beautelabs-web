@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background: #dadada;
+    background: #fff;
     padding:0vw 1vw;
     overflow-x: hidden;
 }
@@ -54,27 +54,35 @@ body {
 }
 .logo {
     // padding:0 19%;
-    padding-left:9vw;
+    padding-left:6vw;
+    
 }
 .logo img {
     // margin-left:17%;
     margin-left: 4vw;
     height: 10vh;
     width: 6vw;
+    
 }
 .logo h1 {
     font-family: 'Marcellus', serif;
     color:#fff;
     font-size: 4vw;
     font-weight: 600;
-    margin-top:-23px;
+    position: absolute;
+    top: 8vh;
+    left:7vw
 }
 
 .logo h4 {
     font-family: 'PT Serif', serif;
     color:#fff;
     letter-spacing: 4px;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
+    position: absolute;
+    top: 17vh;
+    left:7.6vw;
+
 }
 //Logo Mobile device
 @media only screen and (min-width: 320px) and (max-width:600px) {
@@ -113,7 +121,7 @@ body {
 //left content
 .topleftcontent {
     position: absolute;
-    left: 9vw;
+    left: 7vw;
     top: 38vh;
 }
 .topleftcontent h3 {
@@ -160,6 +168,9 @@ body {
 }
 .carousel {
     width: 59vw;
+}
+.carousel-inner {
+    width:99% !important;
 }
 .slides img {
     // height: 550px;
@@ -321,7 +332,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 .orangebg {
     top: 78vh;
     height: 15vh;
-    width: 100%;
+    width: 99%;
 }    
 }
 //Menu
@@ -364,7 +375,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     display: inline-flex;
     margin: .667em 1.8em;
     padding: 0;
-    color:#fff !important;
+    color:#fff;
     font-family:  "Roboto", serif;
     font-size: 1.3vw;
 }
@@ -410,6 +421,9 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-9px, -9px);
     transform: rotate(45deg) translate(-9px, -9px);
+  }
+  .menu-orange {
+      color:#f48f50 !important
   }
 //Menu responsive
 @media screen and (max-width: 700px) {
@@ -561,6 +575,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     position: absolute;
     width: 98%;
     top:492vh;
+    height: 96vh;
 }
 .fourth-content {    
     height: 100vh;
@@ -602,7 +617,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
         height: 60vh;
     }
     .fourth-section {
-        top:446vh;
+        top:417vh;
     }
 }
 
@@ -617,11 +632,21 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     width: 98%;
     top:296vh;
 }
+.image-content {
+    width: 69vw;
+    float: left;
+}
 .image-content img {
-    width:16.5vw;
+    width:16vw;
     margin-right: 0.6vw;
 }
-.new-content h1 {
+.new-content {
+    width: 28vw;
+    float: left;
+    position: absolute;
+    left: 73vw;
+}
+.new-content h1{
     color:#fff;
     font-size: 4vw;
     font-weight: normal;
@@ -656,7 +681,9 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
         width: 20vw;
     }
     .new-section {
-     padding:8vh 3vh 5vh 5vh;   
+     padding:8vh 3vh 5vh 4vh;   
+     top:296vh;
+     height: 80vh;
     }
 }
 //New section1
@@ -709,6 +736,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     }
     .new-section1 {
         height: unset;
+        top:372vh;
     }
 }
 //Fifth section
@@ -718,7 +746,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     box-shadow: 5px 10px 18px #545454;
     position: absolute;
     width: 98%;
-    top:594vh;
+    top:590vh;
 }
 .fifth-section img {
     width:100%;
@@ -763,7 +791,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
         line-height:40px;
     }
     .fifth-section {
-        top:564vh;
+        top:528vh;
     }
 }
 //Sixth section
@@ -774,7 +802,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     box-shadow:5px 10px 18px #545454;
     position: absolute;
     width: 98%;
-    top:692vh;
+    top:688vh;
 }
 .six-content {
     width:40vw;
@@ -801,7 +829,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
         width:90vw;
     }
     .sixth-section {
-        top:681vh;
+        top:639vh;
     }
 }
 //Footer
@@ -811,7 +839,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     box-shadow:5px 10px 18px #545454;
     position: absolute;
     width: 98%;
-    top:727vh;
+    top:723vh;
 }
 .footercenter {
     display: flex;
@@ -832,7 +860,8 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 //Footer Section mobile device
 @media only screen and (min-width: 300px) and (max-width:700px) {
 .footer-section {
-    top:773vh;
+    top:695vh;
+    height: 53vh;
 }
 }
 //button
@@ -860,4 +889,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     font-family: "Roboto", serif;
     border-radius: 5px;
     margin-top:10%;
+}
+.last-section {
+    height: 96vh;
 }
