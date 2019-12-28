@@ -30,9 +30,9 @@
                         <div class="navbar-menu" [ngClass]="{'show-menu' : hamburgerClose}">
                             <ul>
                                 <li><a class="fancy-link" routerLink="#" (click)="showstory($event)">Our Story</a></li>
-                                <li><a class="fancy-link" routerLink="#" (click)="showservice($event)">Salon Services</a></li>
-                                <li><a class="fancy-link" routerLink="#" (click)="showblog($event)">Blog</a></li>
-                                <li><a class="fancy-link menu-orange" routerLink="#" (click)="showappt($event)">Book Appointment</a></li>
+                                <li><a class="fancy-link" routerLink="#" (click)="showpartner($event)">Salon Services</a></li>
+                                <li><a class="fancy-link" routerLink="#" (click)="showhire($event)">Blog</a></li>
+                                <li><a class="fancy-link menu-orange" routerLink="#" (click)="showtesti($event)">Book Appointment</a></li>
                             </ul>
                         </div>
                     </div>
@@ -216,7 +216,7 @@
             </div>            
         </div>
     </div>    
-    <div class="fourth-section shadowbg">        
+    <div class="fourth-section shadowbg"  id="partnerview">        
         <div class="row col-md-12 col-xl-12 col-lg-12 col-sm-12 pall-zero mall-zero">
             <div class="col-md-7 col-lg-7 col-xl-7 col-sm-7 pall-zero mall-zero">
                 <img src="../../../assets/images/partnerus.png" class="img-responsive" />
@@ -232,7 +232,7 @@
            
         </div>
     </div>
-    <div class="fifth-section shadowbg">    
+    <div class="fifth-section shadowbg" id="hireview">    
         <div class="row col-md-12 col-xl-12 col-lg-12 col-sm-12 pall-zero mall-zero">            
             <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6 centercontent">
                 <div class="fifth-content">
@@ -250,7 +250,7 @@
             </div>
         </div>
     </div>
-    <div class="sixth-section shadowbg">
+    <div class="sixth-section shadowbg" id="testimonialview">
         <div class="six-content">
             <h2>Partner's Speak</h2>
             <!-- <h4>"Great people to work with. <br />
