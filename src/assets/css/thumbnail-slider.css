@@ -122,8 +122,8 @@ figure.testimonial {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 60vh;
-    width:50vw;
+    height: 70vh;
+    width:60vw;
 }
 figure.testimonial * {
 	-webkit-box-sizing: border-box;
