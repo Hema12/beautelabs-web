@@ -123,7 +123,7 @@ figure.testimonial {
     flex-direction: column;
     justify-content: center;
     height: 70vh;
-    width:60vw;
+    width:61vw;
 }
 figure.testimonial * {
 	-webkit-box-sizing: border-box;
