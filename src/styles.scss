@@ -430,8 +430,8 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
   }
 .change .bar2 {opacity: 0;}
 .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-7px, -7px);
-    transform: rotate(45deg) translate(-7px, -7px);
+    -webkit-transform: rotate(45deg) translate(-9px, -9px);
+    transform: rotate(45deg) translate(-9px, -9px);
   }
   .menu-orange {
       color:#f39e6a !important;
@@ -577,6 +577,9 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     .third-content h3 {
         font-size: 9vw;
     }
+    .third-section img {
+        height: auto;
+    }
     .third-content {
         position: relative;
         width:unset;
@@ -629,12 +632,10 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     .fourth-content h3 {
         font-size: 5vw;
         line-height: 40px;
-    }
-    .third-section img {
-        height: auto;
-    }
+    }  
     .fourth-section img { 
-        height: auto;
+        transform: none;
+        left: 0;
     }
     .fourth-content {
         height: 60vh;
@@ -707,6 +708,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
      padding:8vh 3vh 5vh 4vh;   
      top:296vh;
      height: 80vh;
+     overflow-x: hidden;
     }
 }
 //New section1
@@ -815,7 +817,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
         line-height:40px;
     }
     .fifth-section {
-        top:528vh;
+        top:515vh;
     }
 }
 //Sixth section
@@ -864,6 +866,19 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     }
     .sixth-section {
         top:639vh;
+        overflow-x: hidden;
+    }
+    .sixth-section h2 {
+        left:unset;
+        top:0vh;
+    }
+    figure.testimonial blockquote {
+        font-size: 1.5rem;
+        width:100vw;
+    }
+    figure.testimonial { 
+        width:85vw;
+        height: 60vh;
     }
 }
 //Footer
@@ -896,7 +911,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 @media only screen and (min-width: 300px) and (max-width:700px) {
     .footer-section {
         top:695vh;
-        height: 53vh;
+        height: 70vh;
     }
 }
 //Footer icons
@@ -913,6 +928,12 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 .right-icon1 img {
     height: 4vh;
     width: 2vw;
+}
+@media only screen and (min-width: 300px) and (max-width:700px) { 
+    .right-icon1 img {
+        height: 4vh;
+        width: 6vw;
+    }
 }
 //button
 .btn {

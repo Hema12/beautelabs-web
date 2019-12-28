@@ -25,7 +25,7 @@ showstory() {
   //IE
   document.getElementById('storyview').scrollTop = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
   const element1 = document.querySelector('#storyview');
-  element1.scrollIntoView({ behavior: 'smooth'});
+  element1.scrollIntoView({ behavior: 'smooth', block: 'center'});
   // document.getElementById("storyview").style.margin = "2% 0%";
   
 }
@@ -39,7 +39,7 @@ showservice() {
   //IE
   document.getElementById('serviceview').scrollTop = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
   const element1 = document.querySelector('#serviceview');
-  element1.scrollIntoView({ behavior: 'smooth'});
+  element1.scrollIntoView({ behavior: 'smooth', block: 'center'});
 }
 showblog() {
   // document.getElementById("blogview").scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -51,7 +51,7 @@ showblog() {
    //IE
    document.getElementById('blogview').scrollTop = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
    const element1 = document.querySelector('#blogview');
-   element1.scrollIntoView({ behavior: 'smooth'});
+   element1.scrollIntoView({ behavior: 'smooth', block:'center'});
 }
 showappt() {
   // document.getElementById("apptview").scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -63,6 +63,6 @@ showappt() {
    //IE
    document.getElementById('apptview').scrollTop = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
    const element1 = document.querySelector('#apptview');
-   element1.scrollIntoView({ behavior: 'smooth'});
+   element1.scrollIntoView({ behavior: 'smooth', block: 'center'});
 }
 }
