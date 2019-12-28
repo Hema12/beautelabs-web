@@ -114,10 +114,16 @@ figure.testimonial {
 	position: relative;
 	float: left;
 	overflow: hidden;
-	margin: 10vh 1%;
+	/* margin: 10vh 1%; */
 	padding: 0 20px;
 	text-align: left;
-	box-shadow: none !important;
+    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    width:50vw;
 }
 figure.testimonial * {
 	-webkit-box-sizing: border-box;
@@ -174,9 +180,9 @@ figure.testimonial .btn {
 	position: absolute;
 }
 figure.testimonial .peopl {
-	position: absolute;
+	/* position: absolute; */
     bottom: 0vh;
-    right:0vw;
+    /* right:0vw; */
 	padding: 0 10px 0 120px;
 	margin: 0;
 	color: #121212;
@@ -197,12 +203,12 @@ figure.testimonial .peopl h3 {
 	-ms-touch-action: pan-y;
 	touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
-    width: 54vw;
+    /* width: 75vw;
     text-align: center;
     position: absolute;
-    left: 27vw;
+    left: 22vw;
     height: 58vh;
-    top:13vh;
+    top:13vh; */
 }
 .slick-list {
 	position: relative;
