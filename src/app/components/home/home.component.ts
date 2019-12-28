@@ -65,6 +65,7 @@ showappt() {
    const element1 = document.querySelector('#apptview');
    element1.scrollIntoView({ behavior: 'smooth', block: 'center'});
 }
+//Partner with us Section
 showpartner() {
   // document.getElementById("apptview").scrollIntoView({ behavior: 'smooth', block: 'start' });
   const id = 'partnerview';
