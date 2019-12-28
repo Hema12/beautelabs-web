@@ -634,7 +634,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
         height: 60vh;
     }
     .fourth-section {
-        top:417vh;
+        top:428vh;
     }
 }
 
@@ -750,7 +750,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     }
     .new-section1 {
         height: unset;
-        top:372vh;
+        top:378vh;
     }
 }
 //Fifth section
@@ -804,7 +804,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
         line-height:40px;
     }
     .fifth-section {
-        top:515vh;
+        top:526vh;
     }
 }
 //Sixth section
@@ -849,7 +849,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
         width:90vw;
     }
     .sixth-section {
-        top:639vh;
+        top:643vh;
         overflow-x: hidden;
     }
     .sixth-section h2 {
@@ -893,8 +893,8 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 //Footer Section mobile device
 @media only screen and (min-width: 300px) and (max-width:700px) {
     .footer-section {
-        top:695vh;
-        height: 70vh;
+        top:705vh;
+        height: auto;
     }
 }
 //Footer icons
@@ -914,6 +914,9 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     .right-icon1 img {
         height: 4vh;
         width: 6vw;
+    }
+    .right-icon1 {
+        position: relative;
     }
 }
 //button
