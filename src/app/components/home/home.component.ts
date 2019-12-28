@@ -22,9 +22,10 @@ showstory() {
   const element = document.getElementById(id);
   const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
   window.scrollTo({top: y, behavior: 'smooth'});
+  //IE
   document.getElementById('storyview').scrollTop = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
   const element1 = document.querySelector('#storyview');
-  element1.scrollIntoView();
+  element1.scrollIntoView({ behavior: 'smooth'});
   // document.getElementById("storyview").style.margin = "2% 0%";
   
 }
@@ -35,6 +36,10 @@ showservice() {
   const element = document.getElementById(id);
   const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
   window.scrollTo({top: y, behavior: 'smooth'});
+  //IE
+  document.getElementById('serviceview').scrollTop = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  const element1 = document.querySelector('#serviceview');
+  element1.scrollIntoView({ behavior: 'smooth'});
 }
 showblog() {
   // document.getElementById("blogview").scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -43,6 +48,10 @@ showblog() {
   const element = document.getElementById(id);
   const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
   window.scrollTo({top: y, behavior: 'smooth'});  
+   //IE
+   document.getElementById('blogview').scrollTop = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+   const element1 = document.querySelector('#blogview');
+   element1.scrollIntoView({ behavior: 'smooth'});
 }
 showappt() {
   // document.getElementById("apptview").scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -51,5 +60,9 @@ showappt() {
   const element = document.getElementById(id);
   const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
   window.scrollTo({top: y, behavior: 'smooth'});
+   //IE
+   document.getElementById('apptview').scrollTop = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+   const element1 = document.querySelector('#apptview');
+   element1.scrollIntoView({ behavior: 'smooth'});
 }
 }
