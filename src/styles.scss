@@ -130,6 +130,7 @@ body {
 .first-section {
     height: 98vh;
     background: #2c3239;
+    width: 97vw;
 }
 //left content
 .topleftcontent {
@@ -504,7 +505,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     background: #000;
     height: 96vh;
     position: absolute;
-    width: 98%;
+    width: 97vw;
     top:100vh;
 }
 .second-section h2 {
@@ -531,7 +532,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 .third-section {
     background: #ff914d;
     position: absolute;
-    width: 98%;
+    width:97vw;
     top:198vh;
     height: 96vh;
 }
@@ -598,7 +599,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     background: #c7d0d8;
     overflow: hidden;
     position: absolute;
-    width: 98%;
+    width: 97vw;
     top:492vh;
     height: 96vh;
 }
@@ -654,7 +655,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     padding: 8vh 3vh 5vh 6vh;
     height: 96vh;
     position: absolute;
-    width: 98%;
+    width: 97vw;
     top:296vh;
 }
 .image-content {
@@ -735,7 +736,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
-    width: 98%;
+    width: 97vw;
     top:394vh;
 }
 .new-content1 {
@@ -781,7 +782,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 .fifth-section {    
     background: linear-gradient(180deg, #050912, #010207);
     position: absolute;
-    width: 98%;
+    width: 97vw;
     top:590vh;
     height: 96vh;
 }
@@ -836,7 +837,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     background: #c7d0d8;
     padding: 20px;
     position: absolute;
-    width: 98%;
+    width:97vw;
     top:688vh;
     height: 98vh;
 }
@@ -879,7 +880,8 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
         height: 55vh;
     }
     .sixth-section h2 {
-        left:unset;
+        left:15vw;
+        font-size: 2rem;
         top:0vh;
     }
     figure.testimonial blockquote {
@@ -888,7 +890,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     }
     figure.testimonial { 
         width:85vw;
-        height: 45vh;
+        height: 50vh;
     }
 }
 //Footer
@@ -896,7 +898,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     background: #2c3239;
     padding: 20px 40px;
     position: absolute;
-    width: 98%;
+    width: 97vw;
     top:758vh;
     height: 28vh;
 }
@@ -933,7 +935,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
         margin-bottom: 0px;
     }
     .mblmenu1 {
-        width:53vw;
+        width:50vw;
     }
     .mblmenu2 {
         width:45vw;
@@ -942,7 +944,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 //Footer icons
 .right-icon1 {
     position: absolute;
-    right: 0vw;
+    right: 2vw;
     top: 2vh;
 }
 .right-icon1 a{
