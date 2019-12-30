@@ -567,10 +567,11 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 //Third Section mobile device
 @media only screen and (min-width: 300px) and (max-width:700px) {
     .third-content h1 {
-        font-size: 9vw;
+        font-size: 8vw;
     }
     .third-content h3 {
-        font-size: 9vw;
+        font-size: 6vw;
+        margin-top:4%;
     }
     .third-section img {
         height: auto;
@@ -578,9 +579,14 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     .third-content {
         position: relative;
         width:unset;
+        top: 1vh;
+        min-height: 41vh;
     }
     .third-section {
         top:143vh;
+    }
+    .large-btn {
+        margin-top:4% !important;
     }
 }
 //Fourth Section
@@ -616,8 +622,9 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 .fourth-content h3 {
     color:#2b2b2b;
     font-size: 2vw;
-    line-height: 60px;
+    line-height: 45px;
     font-weight: normal;
+    text-align: center;
 }
 
 //Fourth Section mobile device
@@ -634,7 +641,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
         height: 60vh;
     }
     .fourth-section {
-        top:428vh;
+        top:389vh;
     }
 }
 
@@ -668,7 +675,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     font-family: 'Abel', sans-serif;
 }
 .last-word {
-    padding-top: 1vh;
+    padding-top: 7vh;
 }
 .new-section h2 {
     color:#fff;
@@ -689,17 +696,31 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     // .new-content h1 {
     //     font-size: 7vw;
     // }
+    .image-content {
+        width:90vw;
+        float: left;
+    }
     .new-section h2 {
         font-size: 5vw;
     }
-    // .image-content img {
-    //     width: 20vw;
-    // }
+    .image-content img {
+        width: 21vw;
+    }
     .new-section {
      padding:8vh 3vh 5vh 4vh;   
-     top:296vh;
-     height: 80vh;
+     top:241vh;
+     height: 95vh;
      overflow-x: hidden;
+    }
+    .new-content {
+        width:100vw;
+        position: absolute;
+        top:48vh;
+        left:0vw;
+        text-align: center;
+    }
+    .new-content h1 {
+        font-size: 6vw;
     }
 }
 //New section1
@@ -750,7 +771,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     }
     .new-section1 {
         height: unset;
-        top:378vh;
+        top:338vh;
     }
 }
 //Fifth section
@@ -925,6 +946,10 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     padding:5px 10px;
     font-size: 22px;
     color:#fff;
+}
+.btn:hover {
+    background: #212529;
+    color:#ffffff;
 }
 .btn1 {
     border:1px solid #000;
